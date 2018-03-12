@@ -3,6 +3,7 @@ class Anagram
   
   attr_accessor :name
   
+  def initialize(name)
     @name = name
     temp_array = name.split("")
     temp_array = temp_array.sort
